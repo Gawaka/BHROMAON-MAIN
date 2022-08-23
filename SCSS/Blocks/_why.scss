@@ -2,7 +2,7 @@
     width: 100%;
     position: relative;
     height: 100%;
-    background-image: url(../../images/castle.jpg);
+    background-image: url(./../images/castle.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 100%;
@@ -12,7 +12,7 @@
     padding-top: 60px;
     padding-bottom: 60px;
     width: 100%;
-    background-image: url(../../images/castle.jpg);
+    background-image: url(./../images/castle.jpg);
 
     @include media ($min-lg) {
         padding-top: 124px;

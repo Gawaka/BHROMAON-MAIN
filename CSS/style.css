@@ -7,7 +7,7 @@
   width: 100%;
   position: relative;
   height: 100%;
-  background-image: url(../../images/nature.jpg);
+  background-image: url(./../images/nature.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -211,7 +211,7 @@
   width: 100%;
   position: relative;
   height: 100%;
-  background-image: url(../../images/castle.jpg);
+  background-image: url(./../images/castle.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 100%;
@@ -221,7 +221,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
   width: 100%;
-  background-image: url(../../images/castle.jpg);
+  background-image: url(./../images/castle.jpg);
 }
 @media screen and (min-width: 1024px) {
   .why__wrapper {
@@ -562,7 +562,7 @@
 }
 
 .book-now {
-  background-image: url(../../images/house.jpg);
+  background-image: url(./../images/house.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -640,7 +640,7 @@
 }
 
 .book-now-next {
-  background-image: url(../../images/reef.jpg);
+  background-image: url(./../images/reef.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -721,7 +721,7 @@
 }
 
 .what {
-  background-image: url(../../images/man.jpg);
+  background-image: url(./../images/man.jpg);
   background-position: 30%;
   background-position-y: 35%;
   background-size: cover;
