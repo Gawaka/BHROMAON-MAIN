@@ -1,0 +1,127 @@
+.why {
+    width: 100%;
+    position: relative;
+    height: 100%;
+    background-image: url(../../images/castle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+}
+
+.why__wrapper {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    background-image: url(../../images/castle.jpg);
+
+    @include media ($min-lg) {
+        padding-top: 124px;
+        padding-bottom: 124px;
+    }
+
+    @include media ($lg-md) {
+        background-image: none;
+        width: 1200px;
+        height: 100%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.why__image-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    @include media ($md) {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    @include media ($lg-md) {
+        padding: 0;
+        width: 430px;
+        height: 460px;
+        flex-direction: column;
+        margin-right: 70px;
+    }
+
+    .why__img {
+        width: 350px;
+}
+}
+
+.img:last-child {
+    @include media ($lg-md) {
+        margin-left: 150px;
+    }
+}
+
+.why__text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $white-default;
+
+    @include media ($lg-md) {
+        max-width: 600px;
+        margin: 0;
+    }
+
+    @include media ($lg-md) {
+        margin: 0;
+        width: 650px;
+        align-items: flex-start;
+    }
+}
+
+.text-box__title {
+    font-family: $font-secondary;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-top: 25px;
+}
+
+.text-box__text {
+    font-family: $font-primary;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.1em;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    text-align: center;
+
+    @include media ($lg-md) {
+        text-align: start;
+        padding-bottom: 35px;
+    }
+}
+
+.why__btn {
+    cursor: pointer;
+    background: linear-gradient(45deg,$color-elements-darker 40%,$color-elements 0);
+    color: $white-default;
+    border: 1px solid $color-elements;
+    width: 213px;
+    height: 60px;
+    font-family: $font-secondary;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.07em;
+
+    &:hover {
+        background: $color-elements-darker;
+        transform: scale(1.01);
+    }
+}

@@ -1,0 +1,82 @@
+.why__icon-box {
+    width: 100%;
+    background-color: $bg-color;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icon-box {
+    width: 100%;
+
+    &__lines {
+        display: none;
+
+        @include media ($min-lg) {
+            display: block;
+            width: 70%;
+        }
+    }
+
+    &__line {
+        padding-top: 60px;
+        width: 100%;
+    }
+}
+
+.list-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+
+    &__list {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 60px;
+        margin: 0;
+        align-items: center;
+
+        @include media ($min-lg) {
+            flex-direction: initial;
+            justify-content: space-between;
+            width: 90%;
+            padding-top: 0%;
+        }
+
+        @include media ($lg-md) {
+            width: 80%;
+        }
+
+        @include media ($lg) {
+            max-width: 45%;
+        }
+    }
+
+    &__items {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    &__icon {
+        padding-left: 10px;
+        width: 66px;
+        height: 66px;
+    }
+
+    &__text {
+        padding-top: 10px;
+        padding-bottom: 60px;
+        color: $white-default;
+        font-family: $font-secondary;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 40px;
+        text-align: center;
+    }
+}
