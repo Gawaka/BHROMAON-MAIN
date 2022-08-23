@@ -536,7 +536,7 @@
 }
 @media screen and (min-width: 1920px) {
   .list-box__list {
-    max-width: 45%;
+    max-width: 60%;
   }
 }
 .list-box__items {
